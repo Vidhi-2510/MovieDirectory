@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MovieDirectory</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_term">New Search Term</string>
+    <string name="example">batman</string>
+    <string name="submit_btn">SUBMIT</string>
+    <string name="search">SEARCH</string>
+</resources>

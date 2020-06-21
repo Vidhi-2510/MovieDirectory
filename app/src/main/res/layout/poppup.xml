@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/searchtext"
+                android:text="@string/search_term"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:paddingTop="7dp">
+
+            </TextView>
+            <EditText
+                android:id="@+id/searchedt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/searchtext"
+                android:hint="@string/example"
+                android:layout_centerHorizontal="true"
+                android:textStyle="italic"
+                android:textSize="15sp"
+                android:paddingTop="7dp">
+            </EditText>
+            <Button
+                android:id="@+id/sbtbtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:layout_below="@+id/searchedt"
+                android:text="@string/submit_btn"
+                android:textSize="15sp"
+                android:textColor="@color/cardview_light_background">
+
+            </Button>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
